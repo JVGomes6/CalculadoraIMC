@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="185dp"
+        android:layout_height="185dp"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="288dp"
+        android:layout_height="68dp"
+        android:text="Calculadora IMC"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="@string/rotuloAltura"
+        android:textAlignment="viewStart"
+        android:textColor="#191A1C"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etAltura"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="#EFEFEF"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="@string/hintAltura"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="@string/rotuloPeso"
+        android:textColor="#191A1C"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etPeso"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#EDEDED"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="@string/hintPeso"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:background="#FD897F"
+        android:backgroundTint="#FD897F"
+        android:text="@string/btnCalcular"
+        android:textColorLink="#9E0707" />
+
+    <Button
+        android:id="@+id/btnLimpar"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnLimpar" />
+</LinearLayout>
