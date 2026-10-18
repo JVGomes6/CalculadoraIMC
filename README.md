@@ -1,4 +1,4 @@
-#  Calculadora de IMC (IMCcalc)
+#  Calculadora de IMC (Índice de Massa Corporal)
 
 Aplicativo desenvolvido em **Kotlin** utilizando o **Android Studio** para o cálculo e classificação do Índice de Massa Corporal (IMC), criado como parte das atividades práticas da disciplina de Desenvolvimento de Aplicativos.
 
@@ -35,6 +35,6 @@ Aplicativo desenvolvido em **Kotlin** utilizando o **Android Studio** para o cá
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 Desenvolvido por **João Vitor de Oliveira Gomes** (UFPR).
